@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const Notification = ({massage}) => {
+export const Notification = ({message}) => {
   return (
-    <p>{massage}</p>
+    <p>{message}</p>
   )
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 
-export const FeedbackStatistic = ({options, state, total, posFeedback}) => {
+export const FeedbackStatistic = ({options, feedback, total, posFeedback}) => {
   return (
     <>
       <ul>
         {options.map(option => (
           <li key={option}>
-            {option} : {state[option]}
+            {option} : {feedback[option]}
           </li>
         ))}
       </ul>
